@@ -33,5 +33,3 @@ To run this script successfully, you must have:
 - Permission to create or update IAM custom roles
 - Permission to assign IAM policy bindings
 - Roles like `Owner`, `Project IAM Admin`, or `IAM Role Admin`
-
-## -- END

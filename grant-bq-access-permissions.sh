@@ -65,5 +65,3 @@ gcloud projects add-iam-policy-binding "$PROJECT_ID" \
 rm "$ROLE_FILE"
 
 echo "✅ Custom BigQuery permissions granted successfully to bq-support@sela.co.il on project $PROJECT_ID"
-
-# -- END
