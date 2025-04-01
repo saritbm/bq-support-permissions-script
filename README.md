@@ -8,10 +8,10 @@ This script grants a predefined set of BigQuery permissions to the internal supp
 - Creates or updates a custom IAM role with specific BigQuery permissions:
   - `bigquery.tables.get`
   - `bigquery.tables.list`
+  - `bigquery.tables.getData`  
   - `bigquery.routines.get`
   - `bigquery.routines.list`
   - `bigquery.jobs.listAll`
-  - `bigquery.tables.getData`
 - Assigns the custom role to the support group
 
 ## 🧑‍💻 Usage
