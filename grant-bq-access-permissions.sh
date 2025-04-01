@@ -58,7 +58,8 @@ fi
 echo "🔧 Granting custom role to group:bq-support@sela.co.il..."
 gcloud projects add-iam-policy-binding "$PROJECT_ID" \
   --member="group:bq-support@sela.co.il" \
-  --role="projects/$PROJECT_ID/roles/$CUSTOM_ROLE_ID"
+  --role="projects/$PROJECT_ID/roles/$CUSTOM_ROLE_ID" \
+  --quiet > /dev/null
 
 # Cleanup
 rm "$ROLE_FILE"
