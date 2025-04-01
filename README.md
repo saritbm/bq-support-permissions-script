@@ -24,7 +24,7 @@ This script grants a predefined set of BigQuery permissions to the internal supp
    ```
 3. Run the script:
    ```bash
-   bash grant_bq_support.sh
+   bash grant-bq-access-permissions.sh
    ```
 
 ## ✅ Requirements
